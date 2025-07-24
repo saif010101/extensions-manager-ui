@@ -154,7 +154,7 @@ header .themeSwitchBtn {
 }
 
 body.dark {
-  background-color: hsl(226, 25%, 17%);
+  background: linear-gradient(180deg, #040918 0%, #091540 100%);
 }
 body.dark header .themeSwitchBtn {
   background-color: hsl(225, 23%, 24%);

@@ -205,7 +205,8 @@ header {
 
 body.dark {
   // transition : background 0.3s ease;
-  background-color: $neutral-800;
+  background : $dark-bg-gradient;
+
   header {
     .themeSwitchBtn {
       background-color: $neutral-700;
