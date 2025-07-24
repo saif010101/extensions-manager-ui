@@ -5,7 +5,7 @@ import Dashboard from "./components/Dashboard.jsx";
 
 export function App() {
   const [isDark, setIsDark] = useState(false);
-  const [activeBtn, setActiveBtn] = useState(2);
+  const [activeBtn, setActiveBtn] = useState(0);
 
   function handleBtnChange(i) {
     setActiveBtn(i);
